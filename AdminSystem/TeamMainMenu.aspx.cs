@@ -11,4 +11,10 @@ public partial class TeamMainMenu : System.Web.UI.Page
     {
 
     }
+
+    protected void btnSuppliers_Click(object sender, EventArgs e)
+    {
+        // Redirect the user to the supplier book list page
+        Response.Redirect("SuppliersList.aspx");
+    }
 }
